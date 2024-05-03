@@ -1,5 +1,6 @@
 package cz.czechitas.java2webapps.ukol2.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -12,7 +13,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.stream.Collectors;
 import java.util.Random;
 
-
+@Controller
 public class MainColtroller {
 
     private final Random random = new Random();

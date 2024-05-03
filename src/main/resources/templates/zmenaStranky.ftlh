@@ -9,7 +9,7 @@
     <link href="/css/style.css" rel="stylesheet">
     <link href="/images/favicon.png" rel="icon" type="image/png">
 </head>
-<body style="background-image: url(${nahodnyObrazek});">
-<blockquote>${nahodnyCitat}</blockquote>
+<body style="background-image: url(${obrazek});">
+<blockquote>${text}</blockquote>
 </body>
 </html>
